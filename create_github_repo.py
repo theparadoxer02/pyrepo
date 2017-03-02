@@ -15,8 +15,8 @@ br.set_handle_robots(False)
 r=br.open('http://github.com/login')
 
 br.select_form(nr=0)
-br.form['login']='theparadoxer02'
-br.form['password']='aperchitsinex123'
+br.form['login']='#username'
+br.form['password']='#password'
 br.submit()
 
 r=br.open("http://github.com/new")
